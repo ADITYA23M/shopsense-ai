@@ -1,0 +1,10 @@
+{
+  "sapiens": [
+    {"name": "Sapiens: A Brief History of Humankind", "category": "book", "price": 50, "rating": 4.7, "reviews": 1250, "source": "Open Library"},
+    {"name": "Sapiens: A Graphic History", "category": "book", "price": 40, "rating": 4.5, "reviews": 540, "source": "Open Library"}
+  ],
+  "python": [
+    {"name": "Python Crash Course", "category": "book", "price": 45, "rating": 4.6, "reviews": 980, "source": "Open Library"},
+    {"name": "Automate the Boring Stuff with Python", "category": "book", "price": 50, "rating": 4.5, "reviews": 800, "source": "Open Library"}
+  ]
+}

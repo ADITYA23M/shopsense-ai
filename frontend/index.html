@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Shopping Assistant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>🛒 Smart Shopping Assistant</h1>
+    <form id="searchForm">
+        <input type="text" id="query" placeholder="What do you want to buy?" required>
+        <select id="category">
+            <option value="">All Categories</option>
+            <option value="book">Book</option>
+            <option value="smartphone">Smartphone</option>
+            <option value="laptop">Laptop</option>
+        </select>
+        <input type="number" id="budget" placeholder="Budget (optional)">
+        <input type="text" id="preference" placeholder="What matters most? (optional)">
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="results"></div>
+
+    <div id="comparison" style="display:none;">
+        <h2>📊 Product Comparison</h2>
+        <table id="comparisonTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                    <th>Reviews</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div id="budgetPlanner">
+        <h2>💡 Budget Planner</h2>
+        <input type="number" id="totalBudget" placeholder="Enter your total budget">
+        <button onclick="planBudget()">Plan Budget</button>
+        <div id="budgetResults"></div>
+    </div>
+
+    <div id="topN">
+        <h2>⭐ Top Recommendations</h2>
+        <button onclick="showTopN()">Show Top 5 Products</button>
+        <div id="topResults"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

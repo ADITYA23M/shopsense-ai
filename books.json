@@ -1,0 +1,4 @@
+[
+  {"name": "Python Crash Course", "category": "book", "price": 45, "rating": 4.6, "reviews": 980, "source": "Simulated"},
+  {"name": "Sapiens", "category": "book", "price": 30, "rating": 4.8, "reviews": 1500, "source": "Simulated"}
+]
